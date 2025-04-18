@@ -29,8 +29,8 @@ EXTENSIONS=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Romanos575/prefectPonyXL_v4/resolve/main/prefectPonyXL_v40.safetensors"
-    "https://huggingface.co/colorse/WAI-NSFW-Illustrious/blob/main/waiNSFWIllustrious_v120.safetensors"
-    #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+    "https://huggingface.co/nyanntama/WAI-NSFW-illustrious-SDXL/blob/main/waiNSFWIllustrious_v130.safetensors"
+    "https://huggingface.co/nyanntama/WAI-NSFW-illustrious-SDXL/resolve/main/waiNSFWIllustrious_v130.safetensors"
     #"https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL/resolve/main/ponyDiffusionV6XL_v6StartWithThisOne.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
@@ -87,6 +87,12 @@ function provisioning_start() {
     provisioning_get_files \
         "${A1111_DIR}/models/Stable-diffusion" \
         "${CHECKPOINT_MODELS[@]}"
+    provisioning_get_files \
+        "${A1111_DIR}/models/lora" \
+        "${LORA_MODELS[@]}"
+    provisioning_get_files \
+        "${A1111_DIR}/models/controlnet" \
+        "${CONTROLNET_MODELS[@]}"
 
     
     # Avoid git errors because we run as root but files are owned by 'user'
