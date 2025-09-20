@@ -31,7 +31,7 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/Romanos575/prefectPonyXL_v4/resolve/main/prefectPonyXL_v40.safetensors"
     #"https://huggingface.co/6chan/FeMix_HassakuXL/resolve/main/hassakuXLIllustrious_C%26Vv2.1_UNv1.3StyleA2B8.safetensors"
     #"https://huggingface.co/nyanntama/WAI-NSFW-illustrious-SDXL/resolve/main/waiNSFWIllustrious_v130.safetensors"
-    "https://huggingface.co/John6666/wai-nsfw-illustrious-sdxl-v150-sdxl/resolve/main/unet/diffusion_pytorch_model.safetensors"
+    "https://huggingface.co/Ine007/waiNSFWIllustrious_v140/resolve/main/waiNSFWIllustrious_v140.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
