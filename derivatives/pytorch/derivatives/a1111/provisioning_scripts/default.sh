@@ -28,9 +28,9 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/LyliaEngine/ilustmix_v55/resolve/main/ilustmix_v55.safetensors"
+    #"https://huggingface.co/LyliaEngine/ilustmix_v55/resolve/main/ilustmix_v55.safetensors"
     #"https://huggingface.co/Tommykkane/PrefectPonyXL/resolve/main/prefectPonyXL_v50.safetensors"
-    #"https://huggingface.co/nyanntama/WAI-NSFW-illustrious-SDXL/resolve/main/waiNSFWIllustrious_v130.safetensors"
+    "https://huggingface.co/LyliaEngine/hassakuXLIllustrious_v22/resolve/main/hassakuXLIllustrious_v22.safetensors"
     "https://huggingface.co/Ine007/waiNSFWIllustrious_v140/resolve/main/waiNSFWIllustrious_v140.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
