@@ -14,6 +14,11 @@ PIP_PACKAGES=(
 
 )
 
+EXTENSIONS=(
+    "https://github.com/Mikubill/sd-webui-controlnet"
+    "https://github.com/ototadana/sd-face-editor"
+)
+
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Ine007/waiNSFWIllustrious_v140/resolve/main/waiNSFWIllustrious_v140.safetensors"
 )
