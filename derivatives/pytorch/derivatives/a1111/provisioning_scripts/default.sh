@@ -14,6 +14,12 @@ PIP_PACKAGES=(
 
 )
 
+EXTENSIONS=(
+    "https://github.com/Mikubill/sd-webui-controlnet"
+    "https://github.com/ototadana/sd-face-editor"
+    
+)
+
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
