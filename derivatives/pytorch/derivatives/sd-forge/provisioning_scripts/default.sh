@@ -52,7 +52,7 @@ CIVITAI_MODELS_DEFAULT=(
 
 # Generic wget downloads (no auth)
 WGET_DOWNLOADS_DEFAULT=(
-    #"https://example.com/file.safetensors|$MODELS_DIR/other/file.safetensors"
+    "https://huggingface.co/Ine007/waiNSFWIllustrious_v140/resolve/main/waiNSFWIllustrious_v140.safetensors"
 )
 
 ### End Configuration ###
